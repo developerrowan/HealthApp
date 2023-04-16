@@ -51,7 +51,7 @@ public class MealListAdapter extends ArrayAdapter<MealEntry> {
 
         date.setText(meal.getDescription() + " - " + new SimpleDateFormat("EEE, MMMM d, yyyy").format(meal.getDate()));
         totalItems.setText(String.valueOf(tItems));
-        totalCalories.setText(String.valueOf(tCalories) + " kcals");
+        totalCalories.setText(String.valueOf(tCalories) + " " + context.getResources().getString(R.string.kCals));
         return convertView;
     }
 }

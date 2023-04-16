@@ -9,7 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.devinrowan.healthapp.adapters.MealListAdapter;
-import com.devinrowan.healthapp.dataacess.MealDataAccess;
+import com.devinrowan.healthapp.data.MealDataAccess;
 import com.devinrowan.healthapp.models.MealEntry;
 import com.example.healthapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

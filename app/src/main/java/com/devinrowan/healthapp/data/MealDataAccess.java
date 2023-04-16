@@ -1,4 +1,4 @@
-package com.devinrowan.healthapp.dataacess;
+package com.devinrowan.healthapp.data;
 
 import com.devinrowan.healthapp.models.Food;
 import com.devinrowan.healthapp.models.MealEntry;

@@ -4,26 +4,22 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
-import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.Validation;
 import com.devinrowan.healthapp.adapters.FoodListAdapter;
-import com.devinrowan.healthapp.dataacess.MealDataAccess;
+import com.devinrowan.healthapp.data.MealDataAccess;
 import com.devinrowan.healthapp.models.Food;
 import com.devinrowan.healthapp.models.MealEntry;
 import com.example.healthapp.R;
