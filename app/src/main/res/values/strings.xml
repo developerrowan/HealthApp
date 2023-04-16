@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Main Activity -->
+    <string name="greeting">Hello, John!</string>
+    <string name="recentMeals">Recent Meals</string>
+
+    <!-- Meal Details -->
+    <string name="description">Description</string>
+    <string name="foodConsumed">Food Consumed</string>
+    <string name="date">Date</string>
+    <string name="kcalsEach">kCals each</string>
+
+    <!-- Food Dialog -->
+    <string name="name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="calories">Calories each</string>
+
+    <!-- User actions & context -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="addFoodTitle">Add Food</string>
+    <string name="updateFoodTitle">Update Food</string>
+    <string name="areYouSureTitle">Are you sure?</string>
+    <string name="areYouSure">You have unsaved changes. Are you sure you want to discard them?</string>
+    <string name="areYouSureFood">Do you really want to delete food entry?</string>
+    <string name="areYouSureMeal">Do you really want to delete this meal? This cannot be undone!</string>
+
+    <!-- Validation -->
+    <string name="isRequired">\'%1$s\' cannot be empty.</string>
+    <string name="requiredTextRange">\'%1$s\' must be between %2$d and %3$d characters.</string>
+    <string name="requiredRange">\'%1$s\' must be between %2$d and %3$d.</string>
+    <string name="invalidDateFormat">Date format must be M/d/yyyy.</string>
+</resources>
